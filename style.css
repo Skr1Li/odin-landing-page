@@ -23,7 +23,7 @@ h1 {
     margin: 0px;
 }
 
-.hero_section,
+.text,
 a {
     font-size: 18px;
     color: #E5E7EB;
@@ -71,6 +71,36 @@ ul {
     margin: 30px 0px;
 }
 
-.hero img {
+.hero img, .random_information img  {
     border-radius: 25px;
+}
+.random_information_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 45px 0px;
+}
+.random_information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding-bottom: 100px;
+}
+
+.ratio-3-4 {
+  width: 200px; 
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+}
+
+.block{
+    text-align: center;
+    width: 200px;
+}
+.random_information, .text{
+    color: #6B7280;
 }
