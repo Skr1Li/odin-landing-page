@@ -101,6 +101,6 @@ ul {
     text-align: center;
     width: 200px;
 }
-.random_information, .text{
+.random_information .text{
     color: #6B7280;
 }
